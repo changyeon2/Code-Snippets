@@ -5,7 +5,7 @@ import pathlib
 img_path = pathlib.Path('/content/drive/MyDrive/[pic path]')
 
 img = keras.preprocessing.image.load_img(
-      img_path, target_size=(img_height, img_width)
+      img_path, target_size=([img_height], [img_width])
       )
 
 img_array = keras.preprocessing.image.img_to_array(img)
