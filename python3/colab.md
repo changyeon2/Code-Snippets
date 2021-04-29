@@ -1,4 +1,4 @@
-# load TensorBoard in colab
+### load TensorBoard in colab
 ```python
 %load_ext tensorboard
 %tensorboard --logdir [log_dir_path]
